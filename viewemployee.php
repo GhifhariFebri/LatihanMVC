@@ -37,7 +37,7 @@ if(isset($_POST['submitedit'])){
                 <td>".$karyawan->jabatan."</td>
                 <td>".$karyawan->usia."</td>
                 <td><a href='viewemployee.php?delete=".$indexkar."'><button class='btn btn-outline-info'>Delete</button></a></td>
-                <td><a href='viewemployee.php?edit=".$indexkar."'><button class='btn btn-outline-info'>Delete</button></a></td>
+                <td><a href='viewemployee.php?edit=".$indexkar."'><button class='btn btn-outline-info'>Edit</button></a></td>
             </tr> 
             ";
             $num++;

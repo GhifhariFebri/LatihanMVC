@@ -51,9 +51,6 @@ if(isset($_GET['delete'])){
         ?>
     </tbody>
 </table>
-<?php
-if(isset($_GET['edit'])){
-?>
 <h1 class="text-center mt-4">Form Office-Employee</h1>
 
         <form method="POST" action="viewofficeemplo.php">
